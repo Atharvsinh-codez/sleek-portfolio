@@ -52,6 +52,12 @@ This mindset helps me debug faster, design better systems, and stay calm even wh
   }
 ]
 
+// Alias for blogs page compatibility
+export const blogs = faqs
+
 export const getFAQById = (id: string): FAQ | undefined => {
   return faqs.find(faq => faq.id === id)
 }
+
+// Alias for blog pages
+export const getBlogById = getFAQById
