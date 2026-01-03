@@ -1,0 +1,23 @@
+{
+    "status": "ready",
+    "originalFilePath": "videos\\typegpt.mp4",
+    "provider": "mux",
+    "providerMetadata": {
+        "mux": {
+            "uploadId": "2Lks4SzOcp4fp014jGkIDwMZD8K2tjjVh3ZyTWObSBNM",
+            "assetId": "r00SYKlSVM8Oyiko88NiMIAluBiR3GJVDRsMylMkGV8g",
+            "playbackId": "p500PWkwgW6V1xK4NU01TZNGRhqvpbKE5FKDNkaZzkr1c"
+        }
+    },
+    "sources": [
+        {
+            "src": "https://stream.mux.com/p500PWkwgW6V1xK4NU01TZNGRhqvpbKE5FKDNkaZzkr1c.m3u8",
+            "type": "application/x-mpegURL"
+        },
+        {
+            "src": "https://image.mux.com/p500PWkwgW6V1xK4NU01TZNGRhqvpbKE5FKDNkaZzkr1c/thumbnail.png?width=214&height=121&time=7",
+            "type": "image/png"
+        }
+    ],
+    "poster": "https://image.mux.com/p500PWkwgW6V1xK4NU01TZNGRhqvpbKE5FKDNkaZzkr1c/thumbnail.png"
+}

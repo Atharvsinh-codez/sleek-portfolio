@@ -1,0 +1,27 @@
+{
+    "status": "ready",
+    "originalFilePath": "videos\\codedevs.mp4",
+    "provider": "mux",
+    "providerMetadata": {
+        "mux": {
+            "uploadId": "p01ajO01PpeaWclmnetYfmLJRRjRZv4HxcNSUAWJJ02TxM",
+            "assetId": "ML2GoYRT01FuOmLFhljTzVqwJ2tqesbPtJjAHn3cWq4Q",
+            "playbackId": "whOJxqWGKGb6Q4CbUXYYuDxNMZe0083M101nBWG42022900"
+        }
+    },
+    "sources": [
+        {
+            "src": "https://stream.mux.com/whOJxqWGKGb6Q4CbUXYYuDxNMZe0083M101nBWG42022900.m3u8",
+            "type": "application/x-mpegURL"
+        },
+        {
+            "src": "https://image.mux.com/whOJxqWGKGb6Q4CbUXYYuDxNMZe0083M101nBWG42022900/thumbnail.png?width=214&height=121&time=2",
+            "type": "image/png"
+        },
+        {
+            "src": "https://stream.mux.com/3K2N02C4XjOwotrYBfDGw026tfYR02ZMAZ00LNzKif00ptzM.m3u8",
+            "type": "application/x-mpegURL"
+        }
+    ],
+    "poster": "https://image.mux.com/whOJxqWGKGb6Q4CbUXYYuDxNMZe0083M101nBWG42022900/thumbnail.png"
+}

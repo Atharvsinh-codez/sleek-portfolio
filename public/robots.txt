@@ -1,0 +1,13 @@
+# Robots.txt for Atharvsinh Jadav Portfolio
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas
+Disallow: /api/
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://www.athrix.me/sitemap.xml
+
+# Host declaration (helps with canonicalization)
+Host: https://www.athrix.me

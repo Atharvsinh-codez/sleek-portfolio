@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Pages -->
+  <url>
+    <loc>https://www.athrix.me/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.athrix.me/open-graph.png</image:loc>
+      <image:title>Atharvsinh Jadav - Portfolio</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.athrix.me/projects</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual Project Pages -->
+  <url>
+    <loc>https://www.athrix.me/projects/agenv</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.athrix.me/images/agenv.png</image:loc>
+      <image:title>AgenV - AI Image Generation</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.athrix.me/projects/typegpt</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.athrix.me/images/typegpt.png</image:loc>
+      <image:title>TypeGPT - Unified AI API</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.athrix.me/projects/codedevs</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.athrix.me/images/codedevs.png</image:loc>
+      <image:title>CodeDevs - AI Portfolio Generator</image:title>
+    </image:image>
+  </url>
+  
+</urlset>
