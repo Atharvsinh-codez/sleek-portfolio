@@ -18,20 +18,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${blog.title} | Atharvsinh Jadav`,
-    description: blog.description || blog.title,
+    title: `${blog.question} | Atharvsinh Jadav`,
+    description: blog.answer.substring(0, 150),
     openGraph: {
-      title: blog.title,
-      description: blog.description || blog.title,
+      title: blog.question,
+      description: blog.answer.substring(0, 150),
       type: 'article',
-      publishedTime: blog.date,
-      authors: blog.author ? [blog.author] : undefined,
-      tags: blog.tags,
     },
     twitter: {
       card: 'summary_large_image',
-      title: blog.title,
-      description: blog.description || blog.title,
+      title: blog.question,
+      description: blog.answer.substring(0, 150),
     }
   }
 }

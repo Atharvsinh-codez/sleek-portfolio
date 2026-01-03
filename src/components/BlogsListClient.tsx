@@ -5,10 +5,10 @@ import OnekoCat from '@/components/OnekoCat'
 import FadeIn from '@/components/FadeIn'
 import DiagonalPattern from '@/components/DiagonalPattern'
 import PageNavigation from '@/components/Navigation'
-import { BlogPost } from '@/types/blog'
+import { FAQ } from '@/types/blog'
 
 interface BlogsListClientProps {
-  blogs: BlogPost[]
+  blogs: FAQ[]
 }
 
 export default function BlogsListClient({ blogs }: BlogsListClientProps) {
@@ -18,7 +18,7 @@ export default function BlogsListClient({ blogs }: BlogsListClientProps) {
       <div className="relative mx-auto max-w-4xl min-h-screen">
         <DiagonalPattern side="left" topOffset="0" />
         <DiagonalPattern side="right" topOffset="0" />
-        
+
         <div className="mx-auto sm:w-[calc(100%-120px)] w-full max-w-4xl sm:px-0">
           <div className="prose dark:prose-invert max-w-none">
             <div className="text-base">
@@ -37,7 +37,7 @@ export default function BlogsListClient({ blogs }: BlogsListClientProps) {
                   </div>
                 </div>
               </FadeIn>
-              
+
               <div className="sm:px-12 py-2">
                 <div className="px-4">
                   {blogs.length > 0 ? (
