@@ -29,7 +29,10 @@ export default function PortfolioStars() {
 
   if (loading) {
     return (
-      <div className="h-8 w-16 bg-neutral-100 dark:bg-neutral-800 rounded-full animate-pulse" />
+      <div className="flex items-center gap-1.5 opacity-50">
+        <FaGithub className="w-4 h-4 text-neutral-500" />
+        <span className="text-sm text-neutral-500">...</span>
+      </div>
     )
   }
 
@@ -40,10 +43,10 @@ export default function PortfolioStars() {
           href="https://github.com/Atharvsinh-codez/sleek-portfolio"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 rounded-full text-neutral-700 dark:text-neutral-300 text-sm font-medium border border-neutral-200 dark:border-neutral-700 transition-all duration-200 hover:bg-neutral-200 dark:hover:bg-neutral-700"
+          className="flex items-center gap-1.5 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200 transition-colors duration-200"
         >
           <FaGithub className="w-4 h-4" />
-          <span>{starCount}</span>
+          <span className="text-sm font-medium">{starCount}</span>
         </a>
       </TooltipTrigger>
       <TooltipContent className="bg-neutral-900 text-white px-3 py-1.5 rounded-full text-sm font-medium">
