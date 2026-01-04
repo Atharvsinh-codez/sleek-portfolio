@@ -48,7 +48,7 @@ export const projects: Project[] = [
     title: "Code Devs",
     description: "AI-powered portfolio generator that automatically creates beautiful developer portfolios from GitHub profiles. Turn your GitHub into a stunning portfolio, powered by AI.",
     longDescription: "Founder of this project\n\nCodeDevs is an AI-powered portfolio generator that automatically creates beautiful developer portfolios from GitHub profiles. It fetches your GitHub data, uses AI to generate professional summaries and highlights, and presents everything in a modern, responsive portfolio website.\n\nFeatures:\n• Automatic Portfolio Generation - Enter any GitHub username and get a fully-featured portfolio instantly\n• AI-Powered Content - Uses Groq AI to generate professional summaries, highlights, and SEO-optimized descriptions\n• GitHub Integration - Fetches profile data, repositories, contribution graphs, and project statistics via GitHub GraphQL API\n• SEO Optimized - Dynamic metadata generation for better search engine visibility\n• Responsive Design - Works perfectly on all devices with dark mode support",
-    liveLink: "https://codedevs.dev",
+    liveLink: "https://codedevs.agenv.tech",
     video: "codedevs",
     image: "/images/codedevs.png",
     tags: [
