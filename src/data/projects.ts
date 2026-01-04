@@ -27,7 +27,7 @@ export const projects: Project[] = [
     title: "TypeGPT",
     description: "Unified API access to 200+ cutting-edge AI models. Build smarter applications with zero complexity. Access OpenAI, DeepSeek, Qwen, Meta, Mistral, GLM, MiniMax, Kimi and 200+ models through a single, unified API endpoint.",
     longDescription: "Co-Founder, Manager of this project\n\nUnified API access to 200+ cutting-edge AI models. Build smarter applications with zero complexity.\n\nAccess OpenAI, DeepSeek, Qwen, Meta, Mistral, GLM, MiniMax, Kimi and 200+ models through a single, unified API endpoint.\n\nOne API for every AI model.",
-    liveLink: "https://typegpt.net",
+    liveLink: "https://typegpt.ai",
     video: "typegpt",
     image: "/images/typegpt.png",
     tags: [
