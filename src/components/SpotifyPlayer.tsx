@@ -16,7 +16,7 @@ export default function SpotifyPlayer({
     trackUrl = 'https://open.spotify.com/track/5VIDhfflRT4rT0TWpy9LXN',
     albumArt = 'https://i.scdn.co/image/ab67616d00001e02283dc1c25ba3030b0030f1bc',
     songName = 'Tum Prem Ho',
-    artists = 'Shafqat Amanat Ali, Shreya Ghoshal',
+    artists = 'Mohit Lalwani',
     audioSrc = '/audio/TumPremHo.mp3'
 }: SpotifyPlayerProps) {
     const [isPlaying, setIsPlaying] = useState(false)
