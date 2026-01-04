@@ -13,15 +13,15 @@ interface SpotifyPlayerProps {
 }
 
 export default function SpotifyPlayer({
-    trackUrl = 'https://open.spotify.com/track/08GYLNhKthS3arMdXsveRI',
-    albumArt = 'https://i.scdn.co/image/ab67616d0000b27305be603d0ab07ff5b195554e',
-    songName = 'Haseen',
-    artists = 'Talwiinder, NDS, Rippy Grewal',
-    audioSrc = '/audio/Haseen.mp3'
+    trackUrl = 'https://open.spotify.com/track/5VIDhfflRT4rT0TWpy9LXN',
+    albumArt = 'https://i.scdn.co/image/ab67616d00001e02283dc1c25ba3030b0030f1bc',
+    songName = 'Tum Prem Ho',
+    artists = 'Shafqat Amanat Ali, Shreya Ghoshal',
+    audioSrc = '/audio/TumPremHo.mp3'
 }: SpotifyPlayerProps) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [currentTime, setCurrentTime] = useState(0)
-    const [duration, setDuration] = useState(174) // Default 2:54 = 174 seconds
+    const [duration, setDuration] = useState(302) // 5:02 = 302 seconds
     const [isExpanded, setIsExpanded] = useState(false)
     const audioRef = useRef<HTMLAudioElement>(null)
     const progressRef = useRef<HTMLDivElement>(null)
