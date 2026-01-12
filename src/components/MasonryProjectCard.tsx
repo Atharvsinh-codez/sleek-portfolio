@@ -8,6 +8,7 @@ import { useState } from 'react';
 import codedevs from '/videos/codedevs.mp4';
 import agenv from '/videos/agenv.mp4';
 import typegpt from '/videos/typegpt.mp4';
+import obsidianui from '/videos/obsidianui.mp4';
 
 interface MasonryProjectCardProps {
   project: Project;
@@ -22,6 +23,8 @@ const getVideoSource = (videoId: string) => {
       return agenv;
     case 'typegpt':
       return typegpt;
+    case 'obsidianui':
+      return obsidianui;
     default:
       return null;
   }

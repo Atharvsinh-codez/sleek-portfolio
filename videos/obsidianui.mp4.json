@@ -1,0 +1,23 @@
+{
+    "status": "ready",
+    "originalFilePath": "videos\\obsidianui.mp4",
+    "provider": "mux",
+    "providerMetadata": {
+        "mux": {
+            "uploadId": "xVyPFXMZTYj9QfWV2kduYYkWCIsbEBE701GgUm9bjgn4",
+            "assetId": "aFG4CrtUr00lV00peLB4kDmYSecTGlj02zD8dA1fR02HybY",
+            "playbackId": "f00SUanR57PP022KMt00Z61zV2hswhzr1zraKCfXhpjzrA"
+        }
+    },
+    "sources": [
+        {
+            "src": "https://stream.mux.com/f00SUanR57PP022KMt00Z61zV2hswhzr1zraKCfXhpjzrA.m3u8",
+            "type": "application/x-mpegURL"
+        },
+        {
+            "src": "https://image.mux.com/f00SUanR57PP022KMt00Z61zV2hswhzr1zraKCfXhpjzrA/thumbnail.png?width=214&height=121&time=1",
+            "type": "image/png"
+        }
+    ],
+    "poster": "https://image.mux.com/f00SUanR57PP022KMt00Z61zV2hswhzr1zraKCfXhpjzrA/thumbnail.png"
+}

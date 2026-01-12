@@ -19,7 +19,7 @@ import { FAQCard } from './FAQCard'
 import GitHubActivity from './GitHubActivity'
 import AboutMe from './AboutMe'
 import SpotifyPlayer from './SpotifyPlayer'
-import { ComingSoonCard } from './ComingSoonCard'
+
 
 export default function NewHeroSection() {
   return (
@@ -115,7 +115,6 @@ export default function NewHeroSection() {
                       {projects.slice(0, 6).map((project) => (
                         <MasonryProjectCard key={project.id} project={project} />
                       ))}
-                      <ComingSoonCard />
                     </div>
                   </div>
                   <div className="px-4 flex justify-end mt-6 sm:mt-8 mb-4 sm:mb-6">
