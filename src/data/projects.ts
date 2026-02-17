@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "ObsidianUI",
     description: "ObsidianUI empowers developers to build premium, motion-rich interfaces with ease. Transform your raw ideas into compelling visuals.",
     longDescription: "Founder of this project\n\nObsidianUI empowers developers to build premium, motion-rich interfaces with ease. Transform your raw ideas into compelling visuals.",
-    liveLink: "https://obsidianui.com",
+    liveLink: "https://obsidianui.dev",
     githubLink: "https://github.com/Atharvsinh-codez/ObsidianUI",
     video: "obsidianui",
     image: "/images/obsidianui.png",
