@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
 import { ScrollToTop } from "@/components/ui/ScrollAnimations"
 import GradualBlur from "@/components/GradualBlur"
+import { Analytics } from '@vercel/analytics/next';
 
 const hkGrotesk = Hanken_Grotesk({
   weight: ['400'],
@@ -75,6 +76,7 @@ export default function RootLayout({
           data-enable-batching="true"
           async
         ></script>
+        <Analytics />
       </body>
     </html>
   );
