@@ -17,7 +17,7 @@ const skills = [
 
 export default function AboutMe() {
     return (
-        <div className="w-full">
+        <div className="w-full mb-10">
             {/* Section Header */}
             <div className="mb-4">
                 <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-1">About</p>
@@ -41,7 +41,7 @@ export default function AboutMe() {
                 </div>
 
                 {/* Info Section */}
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                     {/* Name */}
                     <h3 className="text-2xl sm:text-3xl font-[family-name:var(--font-instrument-serif)] text-black dark:text-white mb-4">
                         Atharvsinh Jadav
